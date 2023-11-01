@@ -25,6 +25,10 @@ requirements:
 test:
   imports:
     - aiosmtplib
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/cole/aiosmtplib
