@@ -1,5 +1,5 @@
 {% set name = "aiosmtplib" %}
-{% set version = "3.0.0" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 857767879678edb5d188e9d38c16dbfe7b3045b535f45b26b349c6471fe8c234
+  sha256: 43580604b152152a221598be3037f0ae6359c2817187ac4433bd857bc3fc6513
 
 build:
   noarch: python
