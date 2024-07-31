@@ -1,5 +1,5 @@
 {% set name = "aiosmtplib" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 43580604b152152a221598be3037f0ae6359c2817187ac4433bd857bc3fc6513
+  sha256: 08fd840f9dbc23258025dca229e8a8f04d2ccf3ecb1319585615bfc7933f7f47
 
 build:
   noarch: python
@@ -18,7 +18,7 @@ requirements:
   host:
     - python >=3.8,<4.0
     - pip
-    - poetry-core >=1.0.0
+    - hatchling
   run:
     - python >=3.8,<4.0
 
