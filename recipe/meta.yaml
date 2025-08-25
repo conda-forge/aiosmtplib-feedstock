@@ -20,7 +20,7 @@ requirements:
     - pip
     - hatchling
   run:
-    - python >={{ python_min }},<4.0
+    - python >={{ python_min }}
 
 test:
   imports:
