@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aiosmtplib
-  version: "5.1.2"
+  version: "5.1.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 04a0ea3c678f5b719f998f290dce010ca512e1385836d3944206299df03b060f
+  sha256: ac2b418d3260ba62d9cfd0fe7359726e9dc009a4e8e8d9909fdfae332f522a7c
 
 build:
   number: 0
